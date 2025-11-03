@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata: 
-  name: rp-pods
+  name: mycss-pods
   labels:
     app: yellowapp
     env: dev
@@ -32,7 +32,7 @@ spec:
      
     spec:
       containers:
-        - name: yellowapp-pods
+        - name: mycss-co
           image: rajashekarreddy234111/mycssimages:gamer  
           ports:
             - name: yellowapp-ports
