@@ -39,7 +39,7 @@ spec:
     spec:
       containers:
         - name: yellowapp-pods
-          image:
+          image: rajashekarreddy234111/mycssimages:gamer
           ports:
             - name: yellowapp-ports
               containerPort: 80
@@ -54,7 +54,7 @@ spec:
           readinessProbe:
             exec:
               command:
-                - echo hi
+                - echo hi 
           resources:
             requests:
               cpu: 100M
